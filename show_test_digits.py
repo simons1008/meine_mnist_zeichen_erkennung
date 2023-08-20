@@ -1,5 +1,5 @@
 # Testdaten anzeigen
-# Quellen: https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py
+# Quellen: https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html
 #          https://eloquentarduino.com/micropython-machine-learning/ 
 
 # Bibliotheken importieren
