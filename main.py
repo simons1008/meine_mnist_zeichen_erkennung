@@ -1,7 +1,6 @@
 # Klassifikator auf Testdaten anwenden und Voraussage machen
 # Quelle: https://eloquentarduino.com/micropython-machine-learning/
 
-from time import sleep
 from random_forest import RandomForestClassifier
 from mnist import mnist
 
