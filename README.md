@@ -20,15 +20,15 @@ Diese sind auf https://pypi.org/ verfügbar.
 - random_forest.py
 2. Auf dem ESP32 wird main.py (durch reboot) gestartet. Das Ergebnis ist eine Liste mit erwarteten Zeichen und erkannten Zeichen. Wir sehen 1 oder  2 falsch erkannte Zeichen. Das liegt an der oben angegebenen Erkennungsleistung. 
 
-## Bilder der Testdaten auf dem PC
+## Testdaten als Bild anzeigen
 Die Testdaten in mnist.py sind ein Array mit der Dimension (10, 64). Es sind 10 handgeschriebene Zeichen, die durch eine Reihe mit 64 Grauwerten dargestellt werden. Der Index 0 enthält eine handgeschriebene Null, usw. 
 
-Das Programm show_test_digits.py stellt die ursprünglichen 8 x 8 Grauwerte wieder her. Anschließend wird für jedes Zeichen eine Funktion aus der matplotlib aufgerufen, die das Bild darstellt. test_digits.png zeigt das Ergebnis. Das Zeichen '5' ist wirklich schlecht erkennbar. 
+Das PC-Programm show_test_digits.py stellt die ursprünglichen 8 x 8 Grauwerte wieder her. Anschließend wird für jedes Zeichen eine Funktion aus der matplotlib aufgerufen, die das Zeichen als Bild anzeigt. test_digits.png zeigt das Ergebnis. Das Zeichen '5' ist wirklich schlecht erkennbar. 
 
 ## Quellen
 Die Idee und die Programme stammen von hier: https://eloquentarduino.com/micropython-machine-learning/ Ich habe die Programme kommentiert und erweitert. Hinweis: Bei der Ausführung von MNIST_digits_classification.py werden "Warnings" ausgegeben.
 
-Der Code für die Bilder der Testdaten stammt von hier:  https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html 
+Der Code für die Anzeige der Testdaten als Bild stammt von hier:  https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html 
 
 ## Dank 
 Ich danke dem Autor "eloquentarduino" für seinen hilfreichen Beitrag. 
