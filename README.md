@@ -10,7 +10,7 @@ Diese sind auf https://pypi.org/ verfügbar.
 
 ## Ausführung auf dem PC
 1. Auf dem PC wird das Programm MNIST_digits_classification.py gestartet. Das Programm importiert die Bibliotheken und die Testdaten. Die Testdaten stammen aus der MNIST Datenbank (Modified National Institute of Standards and Technology database). 
-2. Das Programm erstellt einen RandomForestClassifier und trainiert ihn mit MNIST Trainingsdaten. Anschließend wird der Klassifikator auf MNIST Testdaten angewandt und die Erkennungsleistung angegeben (score). Der Klassifikator darf nicht zu komplex werden. Deshalb sind wir mit einer Erkennungsleistung von unter 90 % zufrieden. 
+2. Das Programm erstellt einen RandomForestClassifier und trainiert ihn mit MNIST Trainingsdaten. Anschließend wird der Klassifikator auf MNIST Testdaten angewandt und die Genauigkeit angegeben (score). Der Klassifikator darf nicht zu komplex werden. Deshalb sind wir mit einer Genauigkeit von unter 90 % zufrieden. 
 3. Danach wird der Klassifikator nach MicroPython portiert. Das Ergebnis ist die Datei random_forest.py.  
 
 ## Ausführung auf dem ESP32
